@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://pugkcp4htw2m"]
+
+[ext_resource type="Script" path="res://01.setting-up-a-server/Client.gd" id="1_fqxec"]
+
+[node name="Client" type="Node2D"]
+script = ExtResource("1_fqxec")
+
+[node name="Label" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "I am a client"
